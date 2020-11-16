@@ -12,6 +12,9 @@ h1{
     margin-top: 10px; /* o default do bootstrap é margin-top 20px para h1*/
     color: black;
 }
+#main-content > h1{
+    margin-bottom: 40px;
+}
 .container{
     margin-left:0px; /* default da classe container do bootstrap consite em margin-left:auto; que deve ser por volta de 50px*/
     position: relative;
