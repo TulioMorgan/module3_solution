@@ -1,1 +1,51 @@
-charset "utf-8"
+@charset "UTF-8";
+
+/** HEADER **/
+#header-nav{
+    background-color: rgb(200,200,200);
+    border: 2px solid black;
+}
+#header-nav a { /*remove o sublinhado quando coloca o mouse em cima do link*/
+    text-decoration: none;
+}
+h1{
+    margin-top: 10px; /* o default do bootstrap é margin-top 20px para h1*/
+    color: black;
+}
+.container{
+    margin-left:0px; /* default da classe container do bootstrap consite em margin-left:auto; que deve ser por volta de 50px*/
+    position: relative;
+}
+.navbar-collapse{ /*revmoer o padding pois estava colocando uma borda cinza no menu retratil*/
+    padding: 0px;
+}
+.navbar-toggle{ /*posiciona o botao do menu no canto superior direito*/
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+#nav-list{ /*remove as bordas cinza no menu retratil*/
+    margin:0px;
+}
+#nav-list li{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(0,0,0);
+    background-color: white;
+    border-top: 2px solid black;
+}
+
+.menu-title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#dishes > div > div{ /*a div target para esse estilo é a filho de outra div (contem os column breaks) que por sua vez é filho de outra div (com id="dishes")*/
+    background-color: rgb(200,200,200);
+    margin-bottom: 50px;
+    padding: 10px;
+}
+#main-content{
+    margin-right: 50px;
+    margin-left: 50px;
+}
