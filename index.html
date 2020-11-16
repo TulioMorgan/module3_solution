@@ -1,1 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- indica para despositivos (moveis ou pc) que mantenha a largura padrao para o website. Sem essa tag, mobiles reduzem o zoom das paginas para o conteudo encaixar melhor na tela.-->
+
+    <title>Assignment 3 - coursera</title>
+    <link rel="stylesheet" href="css_assignment_3_coursera/bootstrap.min.css"> <!-- essa eh a biblioteca do bootstrap -->
+    <link rel="stylesheet" href="css_assignment_3_coursera/styles.css"> <!-- arquivo de estilo feito pelo usuario -->
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) --> 
+    <script src="js_assignment_3_coursera/jquery-2.1.4.min.js"></script>
+    <script src="js_assignment_3_coursera/bootstrap.min.js"></script>
+    <script src="js_assignment_3_coursera/script.js"></script>
+
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container"> <!-- esse container é fundamental para conseguir aplicar o estilo css com bootstrap (sem ele o estilo nao entra-->
+        <div class="navbar-header">
+
+          <div class="nav-brand">
+            <a href="assignment_3_coursera.html"><h1>Food, LLC</h1></a>
+          </div> <!-- nav-brand (Food,LLC)-->
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> <!--menu retratil para dispositivos xs-->
+
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm"> <!-- nao mostrar a lista abaixo para dispositivos large medium e small (vai ficar apenas para extra-small)-->
+           <li>
+             <a href="#chicken">Chicken</a>
+           </li>
+           <li>
+            <a href="#beef">Beef</a>
+           </li>
+           <li><a href="#sushi">Sushi</a>
+           </li>
+         </ul><!-- #nav-list -->
+       </div><!-- .collapse .navbar-collapse -->
+
+      </div> <!--container. Contem o nav-brand (Food,LLC) e o botao de menu para dispositivos xs-->
+    
+    </nav>
+
+  </header>
+
+  <div id="main-content">
+
+    <h1 class="text-center">Our Menu</h1>
+
+    <div id="dishes" class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+        <div>
+          <p id="chicken" class="menu-title">Chicken</p>
+          <p>Sed vel sodales ipsum. Suspendisse consequat tristique arcu eu volutpat. Vivamus ultrices eros nec nisl aliquet luctus. Duis tincidunt lectus at dui vehicula varius. Curabitur at augue ac ligula vestibulum iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis vestibulum molestie felis non gravida. Sed vel sodales ipsum. Suspendisse consequat tristique arcu eu volutpat. Vivamus ultrices eros nec nisl aliquet luctus. Duis tincidunt lectus at dui vehicula varius. Curabitur at augue ac ligula vestibulum iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis vestibulum molestie felis non gravida. Sed vel sodales ipsum. Suspendisse consequat tristique arcu eu volutpat. Vivamus ultrices eros nec nisl aliquet luctus. Duis tincidunt lectus at dui vehicula varius. Curabitur at augue ac ligula vestibulum iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis vestibulum molestie felis non gravida. Sed vel sodales ipsum. Suspendisse consequat tristique arcu eu volutpat. Vivamus ultrices eros nec nisl aliquet luctus. Duis tincidunt lectus at dui vehicula varius. Curabitur at augue ac ligula vestibulum iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis vestibulum molestie felis non gravida</p>
+        </div>
+
+        <div>
+          <p id="beef" class="menu-title">Beef</p>
+          <p>Sed luctus sodales nunc et vulputate. Cras faucibus mi at ligula vestibulum, vitae congue sem laoreet. Nam dapibus neque enim, sed tempus lacus aliquam vel. Aenean pulvinar porttitor vulputate. Nunc nisl est, vestibulum quis nisi id, luctus interdum mauris. Nullam facilisis arcu diam, ac aliquam tellus tempus eu. Sed gravida at sem et sodales. Ut auctor ornare maximus. Phasellus odio lacus, rhoncus nec lorem a, malesuada hendrerit magna. Nam sed ornare lectus. Sed luctus sodales nunc et vulputate. Cras faucibus mi at ligula vestibulum, vitae congue sem laoreet. Nam dapibus neque enim, sed tempus lacus aliquam vel. Aenean pulvinar porttitor vulputate. Nunc nisl est, vestibulum quis nisi id, luctus interdum mauris. Nullam facilisis arcu diam, ac aliquam tellus tempus eu. Sed gravida at sem et sodales. Ut auctor ornare maximus. Phasellus odio lacus, rhoncus nec lorem a, malesuada hendrerit magna. Nam sed ornare lectus. Sed luctus sodales nunc et vulputate. Cras faucibus mi at ligula vestibulum, vitae congue sem laoreet. Nam dapibus neque enim, sed tempus lacus aliquam vel. Aenean pulvinar porttitor vulputate. Nunc nisl est, vestibulum quis nisi id, luctus interdum mauris. Nullam facilisis arcu diam, ac aliquam tellus tempus eu. Sed gravida at sem et sodales. Ut auctor ornare maximus. Phasellus odio lacus, rhoncus nec lorem a, malesuada hendrerit magna. Nam sed ornare lectus. Sed luctus sodales nunc et vulputate. Cras faucibus mi at ligula vestibulum, vitae congue sem laoreet. Nam dapibus neque enim, sed tempus lacus aliquam vel. Aenean pulvinar porttitor vulputate. Nunc nisl est, vestibulum quis nisi id, luctus interdum mauris. Nullam facilisis arcu diam, ac aliquam tellus tempus eu. Sed gravida at sem et sodales. Ut auctor ornare maximus. Phasellus odio lacus, rhoncus nec lorem a, malesuada hendrerit magna. Nam sed ornare lectus.</p>
+        </div>
+
+        <div>
+          <p id="sushi" class="menu-title">Sushi</p>
+          <p>Aliquam dui ante, semper vel tincidunt sed, suscipit nec metus. Vestibulum dui eros, molestie sed efficitur at, sollicitudin ut ligula. Morbi at arcu odio. Donec libero lacus, condimentum in nisl sit amet, tempor luctus risus. Praesent ac elit eget mi rutrum volutpat in non neque. Nunc et sapien volutpat, pellentesque ligula non, tristique ante. Vivamus at dolor eu eros ultrices vestibulum id in risus.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div> <!--main content div-->
+
+</body>
+</html>
